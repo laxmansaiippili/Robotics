@@ -12,14 +12,14 @@ The robot uses **two ultrasonic sensors** for wall detection and makes navigatio
 
 The current version uses the **Left-Wall Following Algorithm**.
 
-The robot continuously detects the surrounding walls and decides whether to turn, move forward, or turn back based on the available path.
+The robot continuously measures the distance to the walls using its ultrasonic sensors and uses these readings to determine whether to turn, move forward, or turn back based on the available path.
 
 ## 📡 Sensor Configuration
 
 The robot uses **2 ultrasonic sensors**:
 
 * Left ultrasonic sensor
-* Right ultrasonic sensor
+* Front ultrasonic sensor
 
 These sensors are used to detect the maze walls and assist the robot in navigation.
 
@@ -31,10 +31,10 @@ These sensors are used to detect the maze walls and assist the robot in navigati
 | Motor Driver       | HW-130 Motor Shield |
 | Motors             | N20 Motors          |
 | Ultrasonic Sensors | 2                   |
-| Drive System       | 4-wheel drive       |
+| Drive System       | 2-wheel drive       |
 | Battery            | 11.1V               |
 | Voltage Regulation | Buck Converter      |
-| Wheels             | 4                   |
+| Wheels             | 2                   |
 | Caster Wheel       | 1                   |
 
 ## 📐 Robot Specifications
@@ -47,8 +47,7 @@ These sensors are used to detect the maze walls and assist the robot in navigati
 
 ## 🏁 Maze
 
-* **Maze size:** 8 × 8
-* **Cell size:** 24 × 24 cm
+The robot is designed to navigate through **grid-based mazes of different sizes and layouts**.
 
 ## 🔄 How It Works
 
@@ -86,13 +85,6 @@ Future versions may implement:
 * Improved motor synchronization
 * More accurate 90° turns
 
-## 📸 Project Images
-
-Project images will be added as development progresses.
-
-## 🎥 Demo
-
-A demonstration video will be added after testing.
 
 ## 🛠️ Project Status
 
@@ -108,7 +100,9 @@ The current focus is on reliable wall detection, motor control, and accurate maz
 
 B.Tech Computer Science & Engineering
 
-**Interests:** Robotics • AI/ML • IoT • Autonomous Systems
+**Focus Areas:** Robotics • Artificial Intelligence & Machine Learning • IoT • Autonomous Systems
+
+📧 **Email:** [laxmansaiippili@gmail.com](mailto:laxmansaiippili@gmail.com)
 
 ---
 
