@@ -1,20 +1,20 @@
-# 🤖 2-Sensor Maze Solver Robot
+# 2-Sensor Maze Solver Robot
 
 An autonomous maze-solving robot designed to navigate a grid-based maze using **two ultrasonic sensors** and the **Left-Wall Following Algorithm**.
 
-## 📌 Project Overview
+## Project Overview
 
 This project focuses on developing a compact autonomous robot that can navigate through a maze without manual control.
 
 The robot uses **two ultrasonic sensors** for wall detection and makes navigation decisions while following the left wall.
 
-## 🧠 Current Algorithm
+## Current Algorithm
 
 The current version uses the **Left-Wall Following Algorithm**.
 
 The robot continuously measures the distance to the walls using its ultrasonic sensors and uses these readings to determine whether to turn, move forward, or turn back based on the available path.
 
-## 📡 Sensor Configuration
+## Sensor Configuration
 
 The robot uses **2 ultrasonic sensors**:
 
@@ -23,7 +23,7 @@ The robot uses **2 ultrasonic sensors**:
 
 These sensors are used to detect the maze walls and assist the robot in navigation.
 
-## ⚙️ Hardware
+## Hardware
 
 | Component          | Specification       |
 | ------------------ | ------------------- |
@@ -37,7 +37,7 @@ These sensors are used to detect the maze walls and assist the robot in navigati
 | Wheels             | 2                   |
 | Caster Wheel       | 1                   |
 
-## 📐 Robot Specifications
+## Robot Specifications
 
 * **Length:** 11.5 cm
 * **Width:** 8 cm
@@ -45,11 +45,11 @@ These sensors are used to detect the maze walls and assist the robot in navigati
 * **Wheel width:** 1.8 cm
 * **Wheel center-to-center distance:** 6.5 cm
 
-## 🏁 Maze
+## Maze
 
 The robot is designed to navigate through **grid-based mazes of different sizes and layouts**.
 
-## 🔄 How It Works
+## How It Works
 
 ```text
 2 Ultrasonic Sensors
@@ -65,13 +65,13 @@ Navigation Decision
       Repeat
 ```
 
-## 💻 Software
+## Software
 
 * Arduino IDE
 * C/C++
 * AFMotor Library
 
-## 🚀 Future Improvements
+## Future Improvements
 
 The current robot uses the **Left-Wall Following Algorithm**.
 
@@ -86,15 +86,15 @@ Future versions may implement:
 * More accurate 90° turns
 
 
-## 🛠️ Project Status
+## Project Status
 
-🚧 **In Development**
+**In Development**
 
 The current focus is on reliable wall detection, motor control, and accurate maze navigation.
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 **Ippili Laxman Sai**
 
@@ -102,8 +102,8 @@ B.Tech Computer Science & Engineering
 
 **Focus Areas:** Robotics • Artificial Intelligence & Machine Learning • IoT • Autonomous Systems
 
-📧 **Email:** [laxmansaiippili@gmail.com](mailto:laxmansaiippili@gmail.com)
+**Email:** [laxmansaiippili@gmail.com](mailto:laxmansaiippili@gmail.com)
 
 ---
 
-⭐ **More improvements and projects will be added as development continues.**
+**More improvements and projects will be added as development continues.**
