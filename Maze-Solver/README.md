@@ -105,5 +105,3 @@ B.Tech Computer Science & Engineering
 **Email:** [laxmansaiippili@gmail.com](mailto:laxmansaiippili@gmail.com)
 
 ---
-
-**More improvements and projects will be added as development continues.**
