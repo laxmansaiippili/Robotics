@@ -1,44 +1,115 @@
-# Maze Solver Robot
+# 🤖 2-Sensor Maze Solver Robot
 
-An autonomous maze-solving robot using the Left-Wall Following algorithm.
+An autonomous maze-solving robot designed to navigate a grid-based maze using **two ultrasonic sensors** and the **Left-Wall Following Algorithm**.
 
-## Overview
+## 📌 Project Overview
 
-This project focuses on developing a compact autonomous robot capable of navigating a grid-based maze using ultrasonic sensors and the Left-Wall Following algorithm.
+This project focuses on developing a compact autonomous robot that can navigate through a maze without manual control.
 
-## Current Algorithm
+The robot uses **two ultrasonic sensors** for wall detection and makes navigation decisions while following the left wall.
 
-The current implementation uses the **Left-Wall Following** technique.
+## 🧠 Current Algorithm
 
-The robot checks the surrounding walls and decides whether to:
+The current version uses the **Left-Wall Following Algorithm**.
 
-- Turn Left
-- Move Forward
-- Turn Right
+The robot continuously detects the surrounding walls and decides whether to turn, move forward, or turn back based on the available path.
 
+## 📡 Sensor Configuration
 
-## Hardware
+The robot uses **2 ultrasonic sensors**:
 
-- Arduino Uno
-- HW-130 Motor Shield
-- N20 Motors
-- 3 × Ultrasonic Sensors
-- 11.1V Battery
-- Buck Converter
-- 2 Wheels
-- Caster Wheel
+* Left ultrasonic sensor
+* Right ultrasonic sensor
 
-## Future Improvements
+These sensors are used to detect the maze walls and assist the robot in navigation.
 
-The navigation system can be improved in future versions using:
+## ⚙️ Hardware
 
-- Flood-Fill algorithm
-- A* path-planning algorithm
-- Wheel encoders
-- Gyroscope / IMU
-- Time-of-Flight sensors
-- Improved motor synchronization
+| Component          | Specification       |
+| ------------------ | ------------------- |
+| Microcontroller    | Arduino Uno         |
+| Motor Driver       | HW-130 Motor Shield |
+| Motors             | N20 Motors          |
+| Ultrasonic Sensors | 2                   |
+| Drive System       | 4-wheel drive       |
+| Battery            | 11.1V               |
+| Voltage Regulation | Buck Converter      |
+| Wheels             | 4                   |
+| Caster Wheel       | 1                   |
 
-## Project Status
+## 📐 Robot Specifications
+
+* **Length:** 11.5 cm
+* **Width:** 8 cm
+* **Wheel diameter:** 4.5 cm
+* **Wheel width:** 1.8 cm
+* **Wheel center-to-center distance:** 6.5 cm
+
+## 🏁 Maze
+
+* **Maze size:** 8 × 8
+* **Cell size:** 24 × 24 cm
+
+## 🔄 How It Works
+
+```text
+2 Ultrasonic Sensors
+        ↓
+   Wall Detection
+        ↓
+Navigation Decision
+        ↓
+   Motor Control
+        ↓
+  Robot Movement
+        ↓
+      Repeat
+```
+
+## 💻 Software
+
+* Arduino IDE
+* C/C++
+* AFMotor Library
+
+## 🚀 Future Improvements
+
+The current robot uses the **Left-Wall Following Algorithm**.
+
+Future versions may implement:
+
+* **Flood-Fill**
+* **A* path planning**
+* Wheel encoders
+* Gyroscope / IMU
+* Time-of-Flight sensors
+* Improved motor synchronization
+* More accurate 90° turns
+
+## 📸 Project Images
+
+Project images will be added as development progresses.
+
+## 🎥 Demo
+
+A demonstration video will be added after testing.
+
+## 🛠️ Project Status
 
 🚧 **In Development**
+
+The current focus is on reliable wall detection, motor control, and accurate maze navigation.
+
+---
+
+## 👨‍💻 Author
+
+**Ippili Laxman Sai**
+
+B.Tech Computer Science & Engineering
+
+**Interests:** Robotics • AI/ML • IoT • Autonomous Systems
+
+---
+
+⭐ **More improvements and projects will be added as development continues.**
