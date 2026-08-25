@@ -1,8 +1,8 @@
-# ⚙️ Hardware Components
+# Hardware Components
 
 This document contains the detailed hardware specifications of the 2-Sensor Maze Solver Robot.
 
-## 🔌 Main Components
+## Main Components
 
 | Component          | Specification       |
 | ------------------ | ------------------- |
@@ -16,7 +16,7 @@ This document contains the detailed hardware specifications of the 2-Sensor Maze
 | Battery            | 11.1V               |
 | Voltage Regulation | Buck Converter      |
 
-## 📡 Ultrasonic Sensors
+## Ultrasonic Sensors
 
 The robot uses two ultrasonic sensors for detecting walls:
 
@@ -25,7 +25,7 @@ The robot uses two ultrasonic sensors for detecting walls:
 
 The sensor readings are processed by the microcontroller to make navigation decisions.
 
-## ⚙️ Motor System
+## Motor System
 
 The robot uses **two N20 geared motors** for movement.
 
@@ -39,13 +39,13 @@ The drive system provides:
 * Right turns
 * U-turns
 
-## 🔋 Power System
+## Power System
 
 The robot is powered by an **11.1V battery**.
 
 A **buck converter** is used to regulate the required voltage for the electronic components.
 
-## 📐 Robot Dimensions
+## Robot Dimensions
 
 | Parameter                       |   Value |
 | ------------------------------- | ------: |
@@ -55,12 +55,12 @@ A **buck converter** is used to regulate the required voltage for the electronic
 | Wheel Width                     |  1.8 cm |
 | Wheel Center-to-Center Distance |  6.5 cm |
 
-## 🛞 Wheel Configuration
+## Wheel Configuration
 
 The robot uses a **2-wheel drive system** with a caster wheel for support.
 
 The two N20 motors independently drive the left and right wheels, allowing the robot to move forward, reverse, and perform turns.
 
-## 🛠️ Development Notes
+## Development Notes
 
 The robot's motor speeds, sensor thresholds, and turning parameters require calibration according to the physical robot and maze conditions.
